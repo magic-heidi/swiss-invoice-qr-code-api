@@ -173,7 +173,7 @@ Everything you need to know about the parameters and options. The parameters bel
 ### Optional VAT Parameters
 
 - `vat_enabled` (boolean): True or false. If true, then the following two parameters are required.
-- `vat_percentage` (float): Usually 0.077 (for most invoices) or 0.025 (for food products).
+- `vat_percentage` (float): Usually 0.081 (for most invoices) or 0.026 (for food products).
 - `vat_number` (string): The VAT number of the user, "CHE-kjkj..." for example.
 
 ## Code Samples
