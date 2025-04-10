@@ -169,6 +169,7 @@ Everything you need to know about the parameters and options. The parameters bel
 - `qr_reference` (string): To add a payment reference to the payment QR slip. Generally used to allow for an easy payment identification by accounting software.
 - `currency` (string): To select the currency of the invoice. `EUR` or `CHF`. Defaults to `CHF` if left empty.
 - `message` (string) Max 140 characters that you can add to the payment. Will be encoded in the QR code and passed with the payment. Usually used for payment references.
+- `qr_only` (bool): Defaults to false. Set to true if you only want the QR Slip (not the full invoice).
 
 ### Optional VAT Parameters
 
