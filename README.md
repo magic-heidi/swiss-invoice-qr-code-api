@@ -170,6 +170,7 @@ Everything you need to know about the parameters and options. The parameters bel
 - `currency` (string): To select the currency of the invoice. `EUR` or `CHF`. Defaults to `CHF` if left empty.
 - `message` (string) Max 140 characters that you can add to the payment. Will be encoded in the QR code and passed with the payment. Usually used for payment references.
 - `qr_only` (bool): Defaults to false. Set to true if you only want the QR Slip (not the full invoice).
+- `dont_round` (bool): Defaults to false. Set to true if you don't want the amounts to be rounded to the nearest 5 cents. 
 
 ### Optional VAT Parameters
 
